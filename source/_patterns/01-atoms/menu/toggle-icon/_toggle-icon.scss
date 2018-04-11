@@ -1,0 +1,131 @@
+// stylelint-disable declaration-no-important
+.responsive-menu-toggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto !important;
+  z-index: 3;
+}
+// stylelint-enable declaration-no-important
+
+.responsive-menu-toggle--fixed {
+  position: fixed;
+  top: 0;
+  left: auto;
+}
+
+.responsive-menu-toggle--with-admin {
+  position: fixed;
+  top: 0;
+  left: auto;
+  width: auto;
+}
+
+.responsive-menu-toggle-icon {
+  box-sizing: border-box;
+  display: block;
+  width: 75px;
+  height: 36px;
+  z-index: 4;
+  margin-top: 0;
+  // background-color: $c-primary;
+  @include hoverswipe;
+  &:hover {
+  }
+  @include breakpoint($bp--medium) {
+    height: 50px;
+    width: 105px;
+  }
+}
+
+.no-js .responsive-menu-toggle-icon {
+  display: none;
+}
+
+// The label.
+.responsive-menu-toggle-icon span.label {
+  display: block;
+  position: absolute;
+  font-family: $ff--regular;
+  font-size: $fs--s;
+  font-weight: $fw--600;
+  text-transform: uppercase;
+  top: 6px;
+  left: 27px;
+  color: $c-white;
+  @include breakpoint($bp--medium) {
+    left: 40px;
+    line-height: 29px;
+    top: 11px;
+  }
+}
+
+// The elements of the icon.
+.responsive-menu-toggle-icon span.icon:before,
+.responsive-menu-toggle-icon span.icon:after,
+.responsive-menu-toggle-icon span.icon {
+  background: $c-white;
+  content: '';
+  display: block;
+  width: 15px;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  @include breakpoint($bp--medium) {
+    left: 12px;
+  }
+}
+
+.responsive-menu-toggle-icon span.icon:before {
+  left: 0;
+  top: -6px;
+  @include breakpoint($bp--medium) {
+  }
+}
+
+.responsive-menu-toggle-icon span.icon {
+  top: 16px;
+  @include breakpoint($bp--medium) {
+    top: 23px;
+  }
+}
+
+.responsive-menu-toggle-icon span.icon:after {
+  left: 0;
+  top: 6px;
+  @include breakpoint($bp--medium) {
+
+  }
+}
+
+.responsive-menu-toggle-icon span.icon:before,
+.responsive-menu-toggle-icon span.icon:after,
+.responsive-menu-toggle-icon span.icon {
+  transition: none 0.4s ease-out 0.1s;
+  transition-property: transform, top, bottom, left, opacity;
+}
+
+html.mm-opening .responsive-menu-toggle-icon span.icon:before,
+html.mm-opening .responsive-menu-toggle-icon span.icon:after {
+  top: 16px;
+  @include breakpoint($bp--medium) {
+    top: 23px;
+  }
+}
+
+html.mm-opening .responsive-menu-toggle-icon span.icon {
+  left: -25px;
+}
+
+html.mm-opening .responsive-menu-toggle-icon span.icon:before {
+  transform: rotate(45deg);
+  left: 35px;
+  top: 1px;
+}
+
+html.mm-opening .responsive-menu-toggle-icon span.icon:after {
+  transform: rotate(-45deg);
+  left: 35px;
+  top: 1px;
+}

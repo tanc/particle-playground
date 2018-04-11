@@ -1,0 +1,23 @@
+{#
+Presents an image with an optional caption.
+#}
+{% if caption|render|trim %}
+  {% set hasCaption = TRUE %}
+  {% set class = 'with-caption' %}
+{% else %}
+  {% set hasCaption = FALSE %}
+  {% set class = 'without-caption' %}
+{% endif %}
+
+<figure class="image-figure image-figure--{{ class }}">
+  <div class="image-figure__image">
+    {% include "@atoms/image/_image.twig" %}
+  </div>
+  {% if hasCaption %}
+  <figcaption class="image-figure__caption">
+    {% include "@atoms/fields/caption/caption.twig" with {
+      caption: caption
+    } %}
+  </figcaption>
+  {% endif %}
+</figure>

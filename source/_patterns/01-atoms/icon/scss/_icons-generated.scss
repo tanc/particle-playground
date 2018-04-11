@@ -1,0 +1,14 @@
+$__iconfont__data: map-merge(if(global_variable_exists('__iconfont__data'), $__iconfont__data, ()), (
+	"iconfont": (
+		"chevron-down": "\ea01",
+		"chevron-left": "\ea02",
+		"chevron-right": "\ea03",
+		"chevron-up": "\ea04",
+		"close": "\ea05",
+		"error": "\ea06",
+		"menu": "\ea07",
+		"person": "\ea08",
+		"required": "\ea09",
+		"search": "\ea0a"
+	)
+));

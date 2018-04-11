@@ -1,0 +1,11 @@
+{% extends "block.html.twig" %}
+
+{#
+Displays the hero image from a node in a block.
+#}
+{% block content %}
+  {% include "@organisms/blocks/hero-image/hero-image.twig" with {
+    "caption": content.caption,
+    "image": content.image
+  } %}
+{% endblock %}

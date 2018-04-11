@@ -1,0 +1,9 @@
+<section class="site-search{{ pl ? ' site-search--pattern-lab' }}">
+  {% block search_content %}
+    {% if pl %}
+      {% include "@organisms/blocks/sitewide-search/sitewide-search.twig" %}
+    {% else %}
+      {{ content }}
+    {% endif %}
+  {% endblock %}
+</section>

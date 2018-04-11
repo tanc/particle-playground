@@ -1,0 +1,23 @@
+.exposed-filter {
+  margin-bottom: $spacing--xxl;
+  padding-bottom: $spacing--l;
+}
+
+.exposed-filter .form-item,
+.exposed-filter .form-actions {
+  display: inline-block;
+}
+
+.exposed-filter .form-item__label {
+  min-width: 12em;
+}
+
+.exposed-filter .form-item__submit {
+  height: 43px;
+  font-weight: $fw--600;
+}
+
+.exposed-filter .form-item__textfield {
+  padding-top: 0.3em;
+  padding-bottom: 0.45em;
+}

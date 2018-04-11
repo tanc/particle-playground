@@ -1,0 +1,18 @@
+.site-footer {
+  background-color: $c-gray--lightest;
+}
+
+.site-footer__wrapper {
+  margin: 0 20px;
+  padding: $spacing--xl 0 $spacing--xxl;
+  @include breakpoint($bp--medium) {
+    margin: 0 25px;
+  }
+  @include breakpoint($bp--large) {
+    margin: 0 auto;
+    max-width: 708px;
+  }
+  @include breakpoint($bp--xxlarge) {
+    max-width: 1050px;
+  }
+}

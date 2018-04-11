@@ -1,0 +1,177 @@
+{
+  "hero_image": {
+    "credit": "Peter Mandelbrot",
+    "image": {
+      "attributes": {
+        "Attribute()": {
+          "src": "holder.js/1800x400?auto=true&textmode=exact"
+        }
+      }
+    },
+    "caption": "The Wankel engine delivers advantages of simplicity, smoothness, compactness, high revolutions per minute, and a high power-to-weight ratio."
+  },
+  "text_image": {
+    "text": "<h2>A bit of Ipsum follows</h2><p>Lorem Ispum is a choke artist. It chokes! He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Lorem Ipsum is unattractive, both inside and out. I fully understand why it’s former users left it for something else. They made a good decision.</p><p>I will write <a href=\"www.bbc.com\">some great placeholder text</a> – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words. My text is long and beautiful, as, it has been well documented, are various other parts of my website. An ‘extremely credible source’ has called my office and told me that his placeholder text is a fraud.</p><ul><li>There are lots of possibilities. For example, you might organise an event to share your stories and experiences of international development, work with school or college students, get involved with volunteering in your local community or lobby your MP about one of the issues raised by your placement.</li><li>numero duo numero duo numero duo numero duo numero duo numero duo numero duo numero duo </li><li>Bob Dylan - Triplicate</li></ul><p>Some people have an ability to write placeholder text... It's an art you're basically born with. You either have it or you don't. All of the words in Lorem Ipsum have flirted with me - consciously or unconsciously. That's to be expected. I was going to say something extremely rough to Lorem Ipsum, to its family, and I said to myself, \"I can't do it. I just can't do it. It's inappropriate. It's not nice.\"</p>",
+    "image": {
+      "attributes": {
+        "Attribute()": {
+          "src": "holder.js/800x355?auto=true&textmode=exact"
+        }
+      }
+    },
+    "caption": "The Grankel engine is a type of internal combustion engine using an eccentric rotary design to convert pressure into rotating motion. In contrast to the more common reciprocating piston designs, the Wankel engine delivers advantages of simplicity, smoothness, compactness, high revolutions per minute, and a high power-to-weight ratio."
+  },
+  "image_only": {
+    "image": {
+      "attributes": {
+        "Attribute()": {
+          "src": "holder.js/800x355?auto=true&textmode=exact"
+        }
+      }
+    },
+    "caption": "A much shorter caption to see how it looks."
+  },
+  "video_only": {
+    "content": {
+      "field_caption": "This is a caption, fairly short",
+      "field_video": {
+        "video.embed": "S-XDAmCeRwo"
+      }
+    }
+  },
+  "video_2up": {
+    "content": {
+      "field_video": {
+        "video.embed": "S-XDAmCeRwo"
+      },
+      "field_video2": {
+        "video.embed": "S-XDAmCeRwo"
+      },
+      "field_caption": "A caption for the video, not too short but also not too long.",
+      "field_caption2": "A tiny caption"
+    }
+  },
+  "reference": {
+    "content": {
+      "field_body": "<p>He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Lorem Ipsum is unattractive, both inside and out. I fully understand why it’s former users left it for something else. They made a good decision.</p><p>I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words. My text is long and beautiful, as, it has been well documented, are various other parts of my website. An ‘extremely credible source’ has called my office and told me that Barack Obama’s placeholder text is a fraud.</p><p>Some people have an ability to write placeholder text... It's an art you're basically born with. You either have it or you don't. All of the words in Lorem Ipsum have flirted with me - consciously or unconsciously. That's to be expected. I was going to say something extremely rough to Lorem Ipsum, to its family, and I said to myself, \"I can't do it. I just can't do it. It's inappropriate.</p>",
+      "field_related": {
+        "field_image": {
+          "attributes": {
+            "Attribute()": {
+              "src": "holder.js/800x355?auto=true&textmode=exact"
+            }
+          }
+        }
+      }
+    }
+  },
+  "reference_2up": {
+    "content": {
+      "field_related": {
+        "field_image": {
+          "attributes": {
+            "Attribute()": {
+              "src": "holder.js/800x355?auto=true&textmode=exact"
+            }
+          }
+        }
+      },
+      "field_related2": {
+        "field_image": {
+          "attributes": {
+            "Attribute()": {
+              "src": "holder.js/800x355?auto=true&textmode=exact"
+            }
+          }
+        }
+      }
+    }
+  },
+  "testimonial": {
+    "content": {
+      "field_body": "<p>Lorem ipsum dolor sit amet, vel nam, non turpis vestibulum donec vivamus est lectus, dictum quam amet augue id nullam. Urna pulvinar nunc odio eleifend vel. Purus suspendisse inceptos ridiculus a turpis, rhoncus metus. Id pulvinar ornare eros nulla arcu nec, vitae nam occaecati sit quis ligula diam, pariatur amet quis, at suspendisse aliquet platea in eu repellat.</p><p>Sit nec consectetuer ac dui et pellentesque, laoreet euismod. Consectetuer vivamus ipsum semper hymenaeos, ante hendrerit ac augue. Suscipit in eleifend non lectus nam quisque, faucibus risus eu, at quam wisi turpis dignissim, rerum nisl elit commodo. Pharetra vitae cum pellentesque eu</p>",
+      "field_citation": "Hannah Okunlola",
+      "field_caption2": "The bond between the villagers and the partner organisations made our legacy greater.",
+      "field_statement": "Volunteered in Rwanda",
+      "field_image": {
+        "attributes": {
+          "Attribute()": {
+            "src": "holder.js/1800x400?auto=true&textmode=exact"
+          }
+        }
+      }
+    }
+  },
+  "cta_text": {
+    "content": {
+      "field_caption": "Lorem ipsum dolor sit amet, vel nam, non turpis vestibulum donec vivamus est lectus, dictum quam amet augue id nullam. Urna pulvinar nunc odio eleifend vel. Purus suspendisse inceptos ridiculus a turpis, rhoncus metus.",
+      "field_title": "Hannah Okunlola",
+      "field_link": {
+        "0": {
+          "#url": "/node/7"
+        }
+      }
+    }
+  },
+  "cta_text_image": {
+    "content": {
+      "field_caption": "Lorem ipsum dolor sit amet, vel nam, non turpis vestibulum donec vivamus est lectus, dictum quam amet augue id nullam. Urna pulvinar nunc odio eleifend vel. Purus suspendisse inceptos ridiculus a turpis, rhoncus metus.",
+      "field_title": "A call to action with an image",
+      "field_link": {
+        "0": {
+          "#url": "/node/7"
+        }
+      },
+      "field_image": {
+        "attributes": {
+          "Attribute()": {
+            "src": "holder.js/350x274?auto=true&textmode=exact"
+          }
+        }
+      }
+    }
+  },
+  "cta_text_image_2up": {
+    "content": {
+      "field_caption": "Lorem ipsum dolor sit amet, vel nam, non turpis vestibulum donec vivamus est lectus, dictum quam amet augue id nullam. Urna pulvinar nunc odio eleifend vel. Purus suspendisse inceptos ridiculus a turpis, rhoncus metus.",
+      "field_title": "A call to action with an image",
+      "field_link": {
+        "0": {
+          "#url": "/node/7"
+        }
+      },
+      "field_image": {
+        "attributes": {
+          "Attribute()": {
+            "src": "holder.js/375x251?auto=true&textmode=exact"
+          }
+        }
+      },
+      "field_caption2": "Lorem ipsum dolor sit amet, vel nam, non turpis vestibulum donec vivamus est lectus, dictum quam amet augue id nullam. Urna pulvinar nunc odio eleifend vel. Purus suspendisse inceptos ridiculus a turpis, rhoncus metus.",
+      "field_title2": "A call to action with an image",
+      "field_link2": {
+        "0": {
+          "#url": "/node/7"
+        }
+      },
+      "field_image2": {
+        "attributes": {
+          "Attribute()": {
+            "src": "holder.js/375x251?auto=true&textmode=exact"
+          }
+        }
+      }
+    }
+  },
+  "cta_apply_now": {
+    "content": {
+      "field_caption": "Apply now to be on placement in summer 2017.",
+      "field_title": "Apply Now",
+      "field_link": {
+        "0": {
+          "#url": "/node/7"
+        }
+      }
+    }
+  }
+}

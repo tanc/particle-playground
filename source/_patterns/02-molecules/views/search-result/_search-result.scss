@@ -1,0 +1,20 @@
+.search-result {
+  list-style: none;
+  border-top: 2px solid $c-gray;
+}
+
+.search-result__title {
+
+}
+
+.search-result__title a {
+  text-decoration: none;
+  color: $c-black;
+  &:visited {
+    color: $c-black;
+  }
+}
+
+.search-result__excerpt {
+  padding-bottom: $spacing--xl;
+}

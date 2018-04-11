@@ -1,0 +1,7 @@
+<div class="hero-image{{ is_front ? ' hero-image--front' }}">
+  {% if caption|render|trim %}
+    {% include "@molecules/image-figure/image-figure--with-caption.twig" %}
+  {% else %}
+    {% include "@molecules/image-figure/image-figure--without-caption.twig" %}
+  {% endif %}
+</div>

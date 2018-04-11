@@ -1,0 +1,58 @@
+
+.paragraph-reference__reference, .paragraph-reference-2up__reference-first, .paragraph-reference-2up__reference-second {
+  border-left: 4px solid $c-primary;
+  margin-bottom: $spacing--m;
+  padding-bottom: $spacing--m;
+  padding-left: $spacing--l;
+  @include breakpoint($bp--medium) {
+    padding-left: $spacing--m;
+  }
+  @include breakpoint($bp--xlarge) {
+    padding-left: $spacing--l;
+  }
+  .basic-page__heading {
+    @include fluid-type(font-size, $bp--xsmall, $bp--xxlarge, 16px, 22px);
+    @include fluid-type(line-height, $bp--xsmall, $bp--xxlarge, 20px, 28px);
+  }
+  a {
+    @include a-link-alt;
+    display: block;
+  }
+  .image__credit {
+    display: none;
+  }
+  img {
+    transition: $transition-links;
+    backface-visibility: hidden;
+  }
+  img:hover {
+    // opacity: 0.8;
+  }
+}
+
+.paragraph-reference__reference {
+  @include breakpoint($bp--medium) {
+    float: right;
+    margin-left: $spacing--l;
+  }
+  @include breakpoint($bp--xxlarge) {
+  }
+}
+
+.paragraph-reference-2up {
+  @include breakpoint($bp--medium) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.paragraph-reference-2up__reference-first, .paragraph-reference-2up__reference-second {
+  @include breakpoint($bp--medium) {
+    width: 48%;
+  }
+}
+
+
+.paragraph-reference__text-long {
+}
+

@@ -1,0 +1,48 @@
+.tabs__item {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.tabs__link-item {
+  display: flex;
+  background-color: lighten($c-gray--lightest, 3%);
+  border: 1px solid $c-gray--lighter;
+  border-bottom: none;
+  color: $c-gray;
+  font-size: 1.1rem;
+  padding: 1em 2.4em;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s;
+
+  @include breakpoint($bp--medium) {
+    border-bottom: 1px solid $c-gray--lightest;
+    border-left: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding: .6em 1.7em;
+    position: relative;
+    top: 1px;
+    width: auto;
+  }
+
+  &:hover {
+    background-color: $c-gray--lightest;
+    color: $c-gray--darker;
+  }
+
+  &.is-active {
+    background-color: $c-gray;
+    border: 1px solid $c-gray;
+    color: $c-white;
+
+    @include breakpoint($bp--medium) {
+      background-color: $c-white;
+      border: 1px solid $c-gray--lightest;
+      border-bottom: 1px solid $c-gray--lighter;
+      border-left: none;
+      color: $c-gray;
+    }
+  }
+}

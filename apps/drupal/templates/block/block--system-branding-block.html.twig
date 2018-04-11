@@ -1,0 +1,12 @@
+{% extends "block.html.twig" %}
+{#
+Displays the branding block content.
+#}
+
+{% block content %}
+  {% include "@molecules/branding.twig"
+    with {
+      "url": path('<front>')
+    }
+  %}
+{% endblock %}

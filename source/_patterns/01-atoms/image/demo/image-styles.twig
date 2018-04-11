@@ -1,0 +1,12 @@
+  {% set container = true %}
+
+
+    <h1>Image styles</h1>
+    {% for imageStyleName, imageStyleSetting in imageStyles %}
+      <div class="mb-3">
+        {% include "@atoms/_image.twig" with {
+          imageStyleName: imageStyleName
+        } %}
+      </div>
+    {% endfor %}
+

@@ -1,0 +1,75 @@
+.sitewide-search {
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 42px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  @include breakpoint($bp--medium) {
+    margin-right: 130px;
+    margin-left: 210px;
+    padding-top: 5px;
+  }
+  @include breakpoint($bp--xxlarge) {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+  }
+}
+
+.sitewide-search > form {
+  @include clearfix();
+}
+
+.sitewide-search .form-item {
+  max-width: none;
+  width: calc(100vw - 109px);
+  margin-bottom: 0;
+  margin-right: 10px;
+  display: inline-block;
+  @include breakpoint($bp--medium) {
+    width: calc(98vw - 470px);
+  }
+  @include breakpoint($bp--xxlarge) {
+    width: 78%;
+  }
+}
+
+.sitewide-search .form-item__textfield {
+  margin-right: 1em;
+  max-width: none;
+  height: 40px;
+  border: none;
+  width: 100%;
+  font-size: $fs--m;
+  @include breakpoint($bp--medium) {
+    width: 100%;
+  }
+  &:focus {
+  }
+}
+
+.sitewide-search .form-actions {
+  display: inline-block;
+  vertical-align: top;
+  @include breakpoint($bp--xxlarge) {
+    width: 20%;
+  }
+}
+
+.sitewide-search .form-item__submit {
+  height: 40px;
+}
+
+.sitewide-search .button {
+  text-transform: uppercase;
+  font-weight: $fw--600;
+  padding-top: 10px;
+  padding-right: 1em;
+  padding-left: 1em;
+  min-width: 70px;
+  @include breakpoint($bp--medium) {
+    min-width: 100%;
+    padding-top: 7px;
+  }
+}

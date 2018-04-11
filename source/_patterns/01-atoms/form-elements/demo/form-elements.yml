@@ -1,0 +1,49 @@
+username_label:
+  attributes:
+    Attribute():
+      class:
+        form-required
+  title: "Username"
+  required: true
+username_input:
+  attributes:
+    Attribute():
+      autocorrect: none
+      autocapitalize: none
+      autofocus: autofocus
+      type: text
+      name: name
+      size: 60
+      maxlength: 60
+      required: true
+      aria-required: true
+password_label:
+  attributes:
+    Attribute():
+      class:
+        form-required
+  title: "Password"
+  required: true
+password_input:
+  attributes:
+    Attribute():
+      autocorrect: none
+      autocapitalize: none
+      autofocus: autofocus
+      type: password
+      name: pass
+      size: 60
+      maxlength: 128
+      required: true
+      aria-required: true
+submit_input:
+  attributes:
+    Attribute():
+      type: submit
+      name: pass
+      value: Log in
+      class:
+        btn
+        btn-blue
+        button
+        form-submit

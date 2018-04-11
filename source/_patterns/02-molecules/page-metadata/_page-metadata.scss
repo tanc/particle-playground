@@ -1,0 +1,10 @@
+.page-metadata {
+  color: $c-gray;
+  margin: $spacing--xl 0;
+  position: relative;
+}
+
+.page-metadata__type {
+  font-size: 90%;
+  font-weight: 600;
+}

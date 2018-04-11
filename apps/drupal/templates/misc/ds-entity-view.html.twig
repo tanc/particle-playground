@@ -1,0 +1,17 @@
+{#
+/**
+ * @file
+ * Display Entity View
+ *
+ * Available variables:
+ * - content: The render array which contains the layout
+ */
+#}
+{% if title_suffix %}
+<div{{ attributes }}>
+  {{ title_suffix }}
+{{ content }}
+</div>
+{% else %}
+{{ content }}
+{% endif %}

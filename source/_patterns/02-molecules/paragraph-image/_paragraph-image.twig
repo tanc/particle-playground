@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ * paragraph-image
+ *
+ * Available variables for paragraph-image:
+ *    - paragraph_image.variable_name [variable_type]: Description of the variable. Example below.
+ *    - paragraph_image.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+{%
+  set classes = [
+  'paragraph',
+  'paragraph-image-only',
+  is_front ? 'paragraph-image-only--front',
+]
+%}
+<div{{ attributes.addClass(classes) }}>
+  {% include "@molecules/image-figure/image-figure.twig" with {
+    "image": image,
+    "caption": caption
+  } %}
+</div>

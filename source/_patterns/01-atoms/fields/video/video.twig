@@ -1,0 +1,7 @@
+{% if pl %}
+  <div class="pl-video-embed-field-responsive-video">
+    <iframe width="854" height="480" frameborder="0" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/{{ video.embed }}?autoplay=0&start=0&rel=0?autoplay=0&amp;start=0&amp;rel=0"></iframe>
+  </div>
+{% else %}
+  {{ video }}
+{% endif %}

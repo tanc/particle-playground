@@ -1,0 +1,22 @@
+{% embed "@templates/layout/page.twig" %}
+  {% block header %}
+    {% embed "@organisms/site/site-header/site-header.twig" %}
+      {% block header_content %}
+        {% include "@organisms/blocks/hero-image/hero-image.twig" %}
+      {% endblock %}
+    {% endembed %}
+  {% endblock %}
+
+  {% block content %}
+    {% include "@atoms/page-title/page-title.twig" with {
+      "title": "A sample page title"
+    } %}
+    {% include "@molecules/paragraph-text-image/paragraph-text-image.twig" %}
+    {% include "@molecules/paragraph-text/paragraph-text.twig" %}
+    {% include "@molecules/paragraph-image/paragraph-image.twig" %}
+    {% include "@molecules/paragraph-video/paragraph-video.twig" %}
+    <div id="block-responsivemenumobileicon" class="contextual-region responsive-menu-toggle">
+      {% include "@atoms/menu/toggle-icon/toggle-icon.twig" %}
+    </div>
+  {% endblock %}
+{% endembed %}

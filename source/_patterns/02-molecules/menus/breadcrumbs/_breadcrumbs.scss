@@ -1,0 +1,40 @@
+$breadcrumb-active: #bbb;
+
+.breadcrumb {
+  @include list-reset;
+}
+
+.breadcrumb__item,
+.breadcrumb__link,
+.breadcrumb__link:link,
+.breadcrumb__link:visited,
+.breadcrumb__link:focus {
+  color: $c-gray--darker;
+  text-decoration: none;
+  padding-right: $spacing--s;
+}
+
+.breadcrumb__link:hover {
+  color: $c-gray--darkest;
+}
+
+.breadcrumb__item {
+  display: inline-block;
+  font-size: .75rem;
+
+  &::after {
+    color: $c-gray--light;
+    content: "/";
+  }
+
+  &:last-child {
+
+    &::after {
+      content: "";
+    }
+  }
+}
+
+.breadcrumb_link:active {
+  color: $breadcrumb-active;
+}

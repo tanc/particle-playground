@@ -1,0 +1,52 @@
+// Tab Navigation
+.tabs__nav {
+  @include list-reset;
+  border-bottom: 1px solid $c-gray--lightest;
+  padding-bottom: 1px;
+  margin-bottom: $spacing--l;
+
+  @include breakpoint($bp--medium) {
+    border-left: 1px solid $c-gray--lightest;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+// Tab Content (hidden only in full #tabs js version)
+.tabs__tab {
+  display: none;
+
+  &.is-active {
+    display: block;
+  }
+}
+
+.tabs__content {
+  padding: 1.5rem;
+}
+
+// No-js fallback
+// stylelint-disable selector-max-specificity
+.tabs.no-js {
+  .tabs__tab.is-active {
+    display: block;
+  }
+}
+// stylelint-enable selector-max-specificity
+
+// Drupal Local Tasks variant
+.tabs__nav--local-tasks {
+  margin-top: $spacing--m;
+  margin-bottom: $spacing--l;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 1px;
+  padding-left: 0;
+  &:last-child {
+    margin-bottom: $spacing--l;
+  }
+}
+
+.tabs__link--local-tasks {
+  padding: .3em 1.5em;
+}

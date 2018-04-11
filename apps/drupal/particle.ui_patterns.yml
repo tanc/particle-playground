@@ -1,0 +1,43 @@
+paragraph_text:
+  label: Paragraph - Text only
+  use: "@molecules/paragraph-text/_paragraph-text.twig"
+  fields:
+    text:
+      label: Text
+paragraph_text_image:
+  label: Paragraph - Text with image
+  use: "@molecules/paragraph-text-image/_paragraph-text-image.twig"
+  fields:
+    text:
+      label: Text
+    image:
+      label: Image
+    caption:
+      label: Caption
+paragraph_image:
+  label: Paragraph - Image only
+  use: "@molecules/paragraph-image/_paragraph-image.twig"
+  fields:
+    image:
+      label: Image
+    caption:
+      label: Caption
+paragraph_video:
+  label: Paragraph - Video only
+  use: "@molecules/paragraph-video/_paragraph-video.twig"
+  fields:
+    video:
+      label: Video
+    caption:
+      label: Caption
+search_result:
+  label: Search result
+  description: A sitewide search result.
+  use: "@molecules/views/search-result/search-result.twig"
+  fields:
+    title:
+      label: Title
+    excerpt:
+      label: Excerpt
+    fallback:
+      label: Fallback

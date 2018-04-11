@@ -1,0 +1,9 @@
+.site-search {
+  display: none;
+  background-color: $c-black;
+}
+
+// Display the region whilst in Pattern Lab.
+.site-search--pattern-lab {
+  display: block;
+}

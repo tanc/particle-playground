@@ -1,0 +1,109 @@
+enabled: true
+namespaces:
+  protons:
+    paths:
+      - user/themes/particle/source/_patterns/00-protons
+  atoms:
+    paths:
+      - user/themes/particle/source/_patterns/01-atoms
+      - user/themes/particle/source/_patterns/01-atoms/grid
+      - user/themes/particle/source/_patterns/01-atoms/icon
+      - user/themes/particle/source/_patterns/01-atoms/alert
+      - user/themes/particle/source/_patterns/01-atoms/badge
+      - user/themes/particle/source/_patterns/01-atoms/image
+      - user/themes/particle/source/_patterns/01-atoms/button
+      - user/themes/particle/source/_patterns/01-atoms/branding
+      - user/themes/particle/source/_patterns/01-atoms/dropdown
+      - user/themes/particle/source/_patterns/01-atoms/breadcrumb
+      - user/themes/particle/source/_patterns/01-atoms/list-group
+  molecules:
+    paths:
+      - user/themes/particle/source/_patterns/02-molecules
+      - user/themes/particle/source/_patterns/02-molecules/nav
+      - user/themes/particle/source/_patterns/02-molecules/card
+      - user/themes/particle/source/_patterns/02-molecules/carousel
+      - user/themes/particle/source/_patterns/02-molecules/jumbotron
+      - user/themes/particle/source/_patterns/02-molecules/pagination
+      - user/themes/particle/source/_patterns/02-molecules/example-widget
+  organisms:
+    paths:
+      - user/themes/particle/source/_patterns/03-organisms
+      - user/themes/particle/source/_patterns/03-organisms/navbar
+      - user/themes/particle/source/_patterns/03-organisms/article
+      - user/themes/particle/source/_patterns/03-organisms/accordion
+      - user/themes/particle/source/_patterns/03-organisms/card-grid
+  templates:
+    paths:
+      - user/themes/particle/source/_patterns/04-templates
+      - user/themes/particle/source/_patterns/04-templates/homepage
+  pages:
+    paths:
+      - user/themes/particle/source/_patterns/05-pages
+      - user/themes/particle/source/_patterns/05-pages/homepage
+generated-namespaces:
+  tailwind:
+    paths:
+      - ../../source/tailwind
+  protons:
+    paths:
+      - ../../source/_patterns/00-protons
+  atoms:
+    paths:
+      - ../../source/_patterns/01-atoms
+      - ../../source/_patterns/01-atoms/icon
+      - ../../source/_patterns/01-atoms/image
+      - ../../source/_patterns/01-atoms/button
+      - ../../source/_patterns/01-atoms/menu/tab
+      - ../../source/_patterns/01-atoms/page-title
+      - ../../source/_patterns/01-atoms/typography
+      - ../../source/_patterns/01-atoms/fields/image
+      - ../../source/_patterns/01-atoms/fields/video
+      - ../../source/_patterns/01-atoms/form-elements
+      - ../../source/_patterns/01-atoms/fields/caption
+      - ../../source/_patterns/01-atoms/fields/content
+      - ../../source/_patterns/01-atoms/fields/text-long
+      - ../../source/_patterns/01-atoms/menu/toggle-icon
+      - ../../source/_patterns/01-atoms/fields/image-formatter
+  molecules:
+    paths:
+      - ../../source/_patterns/02-molecules
+      - ../../source/_patterns/02-molecules/forms
+      - ../../source/_patterns/02-molecules/pager
+      - ../../source/_patterns/02-molecules/status
+      - ../../source/_patterns/02-molecules/branding
+      - ../../source/_patterns/02-molecules/menus/tabs
+      - ../../source/_patterns/02-molecules/testimonial
+      - ../../source/_patterns/02-molecules/image-figure
+      - ../../source/_patterns/02-molecules/page-metadata
+      - ../../source/_patterns/02-molecules/mailchimp-form
+      - ../../source/_patterns/02-molecules/paragraph-text
+      - ../../source/_patterns/02-molecules/paragraph-image
+      - ../../source/_patterns/02-molecules/paragraph-video
+      - ../../source/_patterns/02-molecules/menus/main-menu
+      - ../../source/_patterns/02-molecules/menus/breadcrumbs
+      - ../../source/_patterns/02-molecules/menus/journey-menu
+      - ../../source/_patterns/02-molecules/views/search-result
+      - ../../source/_patterns/02-molecules/paragraph-text-image
+      - ../../source/_patterns/02-molecules/views/views-view-list
+  organisms:
+    paths:
+      - ../../source/_patterns/03-organisms
+      - ../../source/_patterns/03-organisms/content/node
+      - ../../source/_patterns/03-organisms/site/site-footer
+      - ../../source/_patterns/03-organisms/site/site-header
+      - ../../source/_patterns/03-organisms/site/site-search
+      - ../../source/_patterns/03-organisms/blocks/hero-image
+      - ../../source/_patterns/03-organisms/content/node-page
+      - ../../source/_patterns/03-organisms/blocks/search-toggle
+      - ../../source/_patterns/03-organisms/blocks/exposed-filter
+      - ../../source/_patterns/03-organisms/menus/responsive-menu
+      - ../../source/_patterns/03-organisms/blocks/sitewide-search
+      - ../../source/_patterns/03-organisms/content/node-reference
+  templates:
+    paths:
+      - ../../source/_patterns/04-templates
+      - ../../source/_patterns/04-templates/layout
+  pages:
+    paths:
+      - ../../source/_patterns/05-pages
+      - ../../source/_patterns/05-pages/basic-page

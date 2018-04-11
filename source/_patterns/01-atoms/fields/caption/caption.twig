@@ -1,0 +1,7 @@
+{% set classes = [
+ 'caption-text',
+] | merge(classes|default([])) %}
+
+<div class="{{ classes|join(' ') }}">
+  {{ caption }}
+</div>

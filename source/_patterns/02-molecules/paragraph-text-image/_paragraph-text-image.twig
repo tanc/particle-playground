@@ -1,0 +1,24 @@
+{#
+Presents text, with an image and optional caption.
+#}
+{%
+  set classes = [
+  'paragraph',
+  'paragraph-text-image',
+  is_front ? 'paragraph-text-image--front',
+]
+%}
+<div{{ attributes.addClass(classes) }}>
+  <div class="paragraph-text-image__image lg:float-right lg:w-1/2 lg:pl-4 lg:ml-4 lg:pb-4">
+    {% include "@molecules/image-figure/image-figure.twig" with {
+      "image": image,
+      "caption": caption
+    } %}
+  </div>
+
+  <div class="paragraph-text-image__text-long pt-4 lg:pt-0">
+    {% include "@atoms/fields/text-long/text-long.twig" with {
+      "content": text
+    } %}
+  </div>
+</div>

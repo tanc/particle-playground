@@ -1,0 +1,55 @@
+.search-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 36px;
+  width: 110px;
+  background-color: $c-secondary;
+  cursor: pointer;
+  @include breakpoint($bp--medium) {
+    height: 50px;
+    width: 110px;
+  }
+  &:hover {
+    background-color: lighten($c-secondary, 5%);
+  }
+  @include breakpoint($bp--large) {
+    width: 120px;
+  }
+}
+
+.search-toggle-block {
+  background-image: url(../images/magnifying-glass.svg);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 0 3px;
+  display: block;
+  margin-top: 5px;
+  margin-left: 10px;
+  height: 25px;
+  width: 20px;
+  cursor: pointer;
+  @include fluid-type(line-height, $bp--xsmall, $bp--xxlarge, 1.6, 1.5);
+  @include breakpoint($bp--medium) {
+    margin-top: 10px;
+    margin-left: 16px;
+    height: 28px;
+    width: 20px;
+    background-position: 0 6px;
+  }
+}
+
+.js .search-toggle-block a.search-link {
+}
+
+.search-toggle-block a.search-link {
+  width: 110px;
+  height: 40px;
+  color: $c-white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 30px;
+  font-family: $ff--regular;
+  font-size: $fs--s;
+  font-weight: $fw--600;
+}

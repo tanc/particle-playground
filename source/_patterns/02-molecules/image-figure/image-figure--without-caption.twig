@@ -1,0 +1,11 @@
+{#
+Presents an image without a caption.
+#}
+<figure class="image-figure image-figure--without-caption{{ bem ? ' ' ~ bem ~ '__image-figure' }}">
+  <div class="image-figure__image{{ bem ? ' ' ~ bem ~ '__image' }}">
+    {% include "@atoms/fields/image/image.twig" with {
+      "image": image,
+      "credit": credit
+    } %}
+  </div>
+</figure>

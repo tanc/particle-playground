@@ -1,0 +1,16 @@
+<h3 class="search-result__title">
+  {{ title }}
+  {% if pl %}
+    <a href="http://google.com" hreflang="en">Less is definitely more</a>
+  {% endif %}
+</h3>
+<div class="search-result__excerpt">
+  {% if pl %}
+    … activities were cheaper and easier to organise but both <strong class="search-results__excerpt">volunteer</strong>s definitely gave their fundraisers the wow factor! Y Care International ICS <strong class="search-results__excerpt">volunteer</strong>, Fergus &nbsp;decided to do a classic ICS fundraising … able to start almost immediately.’ His advice to other <strong class="search-results__excerpt">volunteer</strong>s is ‘to have a good think about setting yourself …
+  {% endif %}
+  {% if excerpt|render|striptags|trim %}
+    {{ excerpt }}
+  {% else %}
+    {{ fallback }}
+  {% endif %}
+</div>

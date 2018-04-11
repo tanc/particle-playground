@@ -1,0 +1,17 @@
+/* Sass Variables to Map to JSON */
+
+// Import Everything from Base.
+@import '../../../source/_patterns/00-protons/variables';
+
+// Import your Customized Variables here, example:
+//@import '../_patterns/01-atoms/button/_button.scss';
+
+// Import the map of available custom font icons.
+@import '../../../source/_patterns/01-atoms/icon/scss/_icons-generated';
+
+$icons-demo: (
+  prefix: 'icon--',
+  fontname: "iconfont",
+  icons: map-keys(map_get($__iconfont__data, "iconfont"))
+);
+

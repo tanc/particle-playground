@@ -1,0 +1,31 @@
+.journey-menu {
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  max-width: 320px;
+}
+
+.journey-menu__menu-item {
+  padding-top: $spacing--s;
+  padding-bottom: $spacing--s;
+  border-bottom: 1px solid $c-gray--lightest;
+}
+
+.journey-menu__menu-item {
+  padding-top: $spacing--s;
+  padding-bottom: $spacing--s;
+  border-bottom: 1px solid $c-gray--lightest;
+}
+
+.journey-menu__menu-link {
+  color: $c-text;
+  text-decoration: none;
+  &:hover {
+    color: $c-secondary;
+  }
+}
+
+.journey-menu__menu-link.is-active {
+  color: $c-primary;
+}

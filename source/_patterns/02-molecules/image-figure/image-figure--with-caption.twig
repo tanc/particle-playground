@@ -1,0 +1,17 @@
+{#
+Presents an image with a caption.
+#}
+
+<figure class="image-figure image-figure--with-caption">
+  <div class="image-figure__image">
+    {% include "@atoms/fields/image/image.twig" with {
+    "attributes": attributes,
+    "credit": credit
+    } %}
+  </div>
+  <figcaption class="image-figure__caption">
+    {% include "@atoms/fields/caption/caption.twig" with {
+      "content": caption
+    } %}
+  </figcaption>
+</figure>

@@ -1,0 +1,14 @@
+{% if pl %}
+  <div class="views-exposed-form sitewide-search" id="block-sitewide-search">
+    <form action="/search" method="get" id="views-exposed-form-search-page" accept-charset="UTF-8">
+      <div class="js-form-item form-item">
+        <input type="text" id="edit-keywords" name="keywords" value="" size="30" maxlength="128" class="form-text form-item__textfield">
+      </div>
+      <div class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+        <input type="submit" id="edit-submit-search" value="Search" class="button js-form-submit form-submit form-item__textfield">
+      </div>
+    </form>
+  </div>
+{% else %}
+  {{ content }}
+{% endif %}

@@ -1,0 +1,70 @@
+// All component Sass needs non-printing base config
+@import '../icon/scss/icon-mixins';
+
+
+.form-item {
+  @apply .mb-4;
+}
+
+.form-item__description {
+  display: block;
+  @apply .text-grey;
+  @apply .mt-1;
+}
+
+label {
+  display: inline-block;
+  @apply .mb-2;
+}
+
+// All text type inputs.
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=datetime-local],
+input[type=color],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week] {
+  display: block;
+  width: 100%;
+  @apply .pt-2;
+  @apply .pl-2;
+  @apply .pb-2;
+  @apply .pr-2;
+  @apply .leading-normal;
+  @apply .text-grey-darker;
+  @apply .border-grey;
+  @apply .border;
+}
+
+.form-required:after {
+  vertical-align: super;
+  display: inline-block;
+  font-family: "iconfont";
+  font-style: normal;
+  font-weight: 400;
+  content: iconfont-item(required);
+  font-size: 6px;
+  @apply .text-red;
+  width: 6px;
+  height: 6px;
+  margin: 0 0.3em;
+}
+
+// Inline error messages.
+.form-item--error-message {
+  content: '';
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  vertical-align: sub;
+  @include icon(error);
+}
+
+@tailwind utilities;

@@ -1,0 +1,19 @@
+.image {
+  position: relative;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image__credit {
+  background: rgba(255,255,255,0.6);
+  color: $c-black;
+  font-size: $fs--xxs;
+  margin-top: -25px;
+  line-height: 25px;
+  padding: 0 $spacing--s;
+  position: absolute;
+  right: 0;
+}

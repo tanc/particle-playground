@@ -1,0 +1,25 @@
+{% if pl %}
+  <h3 class="newsletter__title">Sign up for the Newsletter</h3>
+  {#The form as produced by Drupal but for Pattern Lab#}
+  <form class="mailchimp-signup-subscribe-form" action="/node/10" method="post" accept-charset="UTF-8">
+    <div class="mailchimp-newsletter-mergefields">
+      <div class="js-form-item form-item">
+        <label for="edit-mergevars-email" class="js-form-required form-required form-item__label">Email Address</label>
+        <input type="email" name="mergevars[EMAIL]" value="" size="25" maxlength="254" class="form-email required form-item__textfield" required="required" aria-required="true">
+      </div>
+      <div class="js-form-item form-item">
+        <label for="edit-mergevars-fname" class="js-form-required form-required form-item__label">First Name</label>
+        <input type="text" name="mergevars[FNAME]" value="" size="25" maxlength="128" class="form-text required form-item__textfield" required="required" aria-required="true">
+      </div>
+      <div class="js-form-item form-item">
+        <label for="edit-mergevars-lname" class="js-form-required form-required form-item__label">Last Name</label>
+        <input type="text" name="mergevars[LNAME]" value="" size="25" maxlength="128" class="form-text required form-item__textfield" required="required" aria-required="true">
+      </div>
+    </div>
+    <input type="submit" name="op" value="Submit" class="button js-form-submit form-submit form-item__textfield">
+  </form>
+{% else %}
+  <h3 class="newsletter__title">{{ "Sign up for the ICS Newsletter"|t }}</h3>
+  {#As Drupal produces this form we'll just render it verbatim.#}
+  {{ form }}
+{% endif %}
